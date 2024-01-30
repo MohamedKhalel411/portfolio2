@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../images/clay-banks-e6pK_snssSY-unsplash.jpg);
+    background-position:  center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+nav{
+    background-color: #2D3250;
+}
+.home{
+    min-height: 100vh;
+}
+.active{
+    color: #F6B17A !important;
+    background-color: #424769;
+
+}
+.logo-img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right:5px ;
+}
+.navbar-brand{
+    font-weight: 900;
+}
+.nav-item{
+    margin: 10px;
+}
+.nav-item .nav-link{
+    color: white;
+    font-size: 18px;
+    border: solid 2px transparent;
+    border-radius: 20px;
+    padding: 0 15px !important;
+    transition: all .5s;
+}
+.nav-item .nav-link:hover{
+    color: #F6B17A;
+    /* border: solid 2px rgb(79, 25, 25); */
+    background-color: #424769;
+}
+.person{
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5))brightness(85%);
+    transition: all .5s;
+    width: 430px;
+    position: relative;
+
+}
+/* .person:hover{
+    transform: scale(1.2)
+} */
+.text{
+    margin-top: 50px;
+    color: #dff9ff;
+}
+.text h2{
+    font-size: 50px;
+}
+.text p{
+    padding:20px ;
+    width: 70%;
+    line-height: 2;
+}
+.icons{
+    margin-top: 120px 
+}
+.icons i{
+    color: #EEEDEB;
+    font-size: 30px;
+    margin: 10px;
+    transition: all .5s;
+}
+.icons i:hover{
+    transform: scale(1.5);
+}
+.buttons li a{
+    background-color: #25464E;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.buttons li a:hover{
+    background-color: #0e2025 !important;
+
+}
